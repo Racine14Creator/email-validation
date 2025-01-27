@@ -28,16 +28,16 @@ export default function Home() {
           <form
             action=''
             method='post'
-            className='flex flex-row w-full justify-center items-center'
+            className='flex overflow-hidden border border-black rounded-2xl flex-row w-full justify-center items-center'
           >
             <input
               type='email'
               name='email'
               id='email'
               placeholder='email'
-              className='w-2/3 placeholder:text-stone-800 text-stone-900 outline-none px-10 py-5 rounded-l-2xl border border-stone-900'
+              className='w-2/3 placeholder:text-stone-800 text-stone-900 outline-none px-10 py-5 '
             />
-            <button className='w-1/3 text-white bg-stone-800 rounded-r-2xl px-10 py-5'>
+            <button className='w-1/3 text-white bg-stone-800 px-10 py-5'>
               Subscribe
             </button>
           </form>
