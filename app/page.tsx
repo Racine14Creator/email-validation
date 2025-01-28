@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className='flex flex-col justify-center gap-10 items-center'>
-      <div className='w-full pt-10 flex flex-col justify-center items-center'>
+      <div className='w-full pt-10 gap-5 flex flex-col justify-center items-center'>
         <h1 className='font-bold text-4xl'>Email Next YouTube</h1>
         <p className='text-2xl'>Votre platforme pour emails</p>
         <Link
@@ -16,7 +16,7 @@ export default function Home() {
 
       <div className='bg-white p-10 flex flex-row gap-10  justify-between items-center'>
         <div className='w-1/2 font-light text-stone-900'>
-          <h3 className='text-4xl font-bold'>Email Next YouTube</h3>
+          <h3 className='text-4xl font-bold mb-7'>Email Next YouTube</h3>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor
             placeat sed, veniam illum aliquid eum itaque. Nulla laboriosam eum
